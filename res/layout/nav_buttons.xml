@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:gravity="center_horizontal"
+  	android:layout_alignParentBottom="true"
+  	android:layout_alignParentLeft="true"
+  	android:paddingTop="4dip"
+  	android:background="#FF993333"  	
+  	>
+  	
+  	<Button
+  		android:id="@+id/my_oes_button"
+  		android:text="@string/tab_button_1"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:layout_weight="1"
+  		android:textSize="12sp"
+  		>
+  	</Button>
+  	<Button
+  		android:id="@+id/public_oes_button"
+  		android:text="@string/tab_button_2"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:layout_weight="1"
+  		android:textSize="12sp"
+  		>
+  	</Button>
+  	<Button
+  		android:id="@+id/private_oes_button"
+  		android:text="@string/tab_button_3"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:layout_weight="1"
+  		android:textSize="12sp"
+  		>
+  	</Button>
+  	<ImageButton
+  		android:id="@+id/synchronize_oes_button"
+  		android:src="@drawable/ic_menu_refresh"
+  		android:layout_width="48dip"
+  		android:layout_height="fill_parent"
+  		android:scaleType="fitXY"
+  		>
+  	</ImageButton>
+  	
+</LinearLayout>

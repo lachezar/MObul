@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">MObul</string>
+	
+	<string name="tab_1">My Observation Events</string>
+	<string name="tab_2">Public Observation Events</string>
+	<string name="tab_3">Private Observation Events</string>
+	
+	<string name="tab_button_1">My OEs</string>
+	<string name="tab_button_2">Public OEs</string>
+	<string name="tab_button_3">Private OEs</string>
+	
+	<string name="login_title">Login</string>
+	<string name="registration_title">Register</string>
+	<string name="reset_pass_title">Reset password</string>
+	
+	<string name="mail_label">E-mail:</string>
+	<string name="password_label">Password:</string>
+	<string name="remeber_me_label">Remember me</string>
+
+	<string name="filter_region_label">By region</string>
+	<string name="filter_province_label">State:</string>
+	<string name="filter_country_label">Country:</string>
+	<string name="filter_city_label">City:</string>
+	<string name="filter_worldwide_label">Include worldwide Observation Events</string>
+	
+	<string name="filter_current_location_label">Current location</string>
+
+	<string name="filter_content_label">By content</string>
+	<string name="filter_title_label">Title:</string>
+	<string name="filter_tags_label">Tags:</string>
+	
+	<string name="filter_tags_comma_label">Separate each tag with comma (,)</string>
+	<string name="filter_reset_form_label">Reset</string>
+	
+	<string name="filter_order_label">Order:</string>
+	<string name="filter_submit_form_label">Search</string>
+	<string name="register_label"><a href='http://62.44.100.200/Auth/Register'>Register</a></string>
+	<string name="lost_password_label"><a href='http://example.org/lost_password'>Lost password</a></string>
+	
+	<string name="loading_label">Loading...</string>
+	<string name="sending_label">Sending...</string>
+	<string name="please_wait_label">Please wait!</string>
+	
+	<string name="oe_list_item_tags_label">Tags:</string>
+	<string name="oe_list_item_region_label">Region:</string>
+	
+	<string name="oe_participate_label">Participate</string>
+	<string name="oe_remove_label">Remove</string>
+	
+	<string name="task_title_label">Title:</string>
+	<string name="task_description_label">Description:</string>
+	
+	<string name="take_current_date">Take current date</string>
+	<string name="take_current_time">Take current time</string>
+	<string name="take_current_date_and_time">Take current date and time</string>
+	<string name="take_current_location">Take current location</string>
+	<string name="take_a_photo">Take a photo</string>
+	
+	<string name="none">None</string>
+	<string name="add_to_myoes">Try looking for suitable Observation Events in Public OEs or Private OEs.</string>
+	<string name="start_participating">Start participating</string>
+	<string name="stop_participating">Stop participating</string>
+	<string name="save">Save</string>
+	<string name="logout">Logout</string>
+	<string name="search">Search</string>
+	<string name="observation_event">Observation Event</string>
+	<string name="make_observation">Make Observation</string>
+	
+	<string name="incorrect_email_and_pass">Provided e-mail and password are incorrect</string>
+	<string name="empty_email_and_pass">E-mail and password must not be empty</string>
+	<string name="no_wifi">WiFi is not available!</string>
+	<string name="no_wifi_send_data">You are about to send %DATASIZE% over cellular network. Are you sure?</string>
+	<string name="please_wait">Please wait...</string>
+	<string name="no_connection">No connection with the server!</string>
+	<string name="data_submitted">All data were submitted successfully!</string>
+	<string name="data_submitted_with_errors">Successfully submitted: %SUCCESSFUL%\nFormat errors: %ERRORS%</string>
+	<string name="stop_participating_confirmation">Are you sure you want to remove this Observation Event from My OEs?</string>
+	<string name="pending_observations">pending observations</string>
+	<string name="complete_all_fields">You must complete all required fields</string>
+	<string name="could_not_get_gps">Could not get GPS location</string>
+	<string name="gps_is_unavailable">GPS fix is not available</string>
+	<string name="can_not_subscribe">Could not subscribe for this Observation Event</string>
+	<string name="can_not_unsubscribe">Could not unsubscribe from this Observation Event</string>
+	
+	<string name="error">Error</string>
+	<string name="cant_encrypt">Can not encrypt the password!</string>
+	
+	<string name="ok">Ok</string>
+	<string name="cancel">Cancel</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="exit">Exit</string>
+	
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="links">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center_horizontal</item>
+		<item name="android:linksClickable">true</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+	
+	<style name="task_title_small">
+		<item name="android:textSize">14sp</item>
+	</style>
+</resources>

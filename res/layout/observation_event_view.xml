@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  <include 
+  	android:id="@+id/oe_include_description"
+  	layout="@layout/oe_list_item"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_alignParentTop="true"
+  	android:layout_alignParentLeft="true"
+  	/>
+  
+  <Button
+  		android:id="@+id/oe_participate"
+  		android:text="@string/oe_participate_label"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oe_include_description"
+        android:layout_alignParentLeft="true"
+        />
+  	
+  <ListView  
+        android:id="@android:id/list"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oe_participate"
+        android:layout_alignParentLeft="true" 
+        />
+   <TextView android:id="@android:id/empty"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/none"
+       android:layout_below="@+id/oe_participate"
+       android:layout_alignParentLeft="true"
+       />
+  
+</RelativeLayout>

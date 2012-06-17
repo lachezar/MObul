@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.mobul"
+      android:versionCode="1" android:versionName="0.5">
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+		<activity android:name=".Main" android:label="@string/app_name">
+		    <intent-filter>
+		        <action android:name="android.intent.action.MAIN" />
+		        <category android:name="android.intent.category.LAUNCHER" />
+		    </intent-filter>
+		</activity>
+	
+		<activity android:name=".OEListsHost" android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".Login" android:configChanges="keyboardHidden|orientation" android:label="@string/login_title" />
+		<activity android:name=".oe.Filter" android:configChanges="keyboardHidden|orientation" android:label="@string/search" />
+		<activity android:name=".oe.list.MyOEListActivity" android:configChanges="keyboardHidden|orientation"/>
+		<activity android:name=".oe.list.PublicOEListActivity" android:configChanges="keyboardHidden|orientation"/>
+		<activity android:name=".oe.ObservationEventView" android:configChanges="keyboardHidden|orientation" android:label="@string/observation_event"/>
+		<activity android:name=".oe.MyObservationEventView" android:configChanges="keyboardHidden|orientation" android:label="@string/observation_event"/>
+		<activity android:name=".oe.PublicObservationEventView" android:configChanges="keyboardHidden|orientation" android:label="@string/observation_event"/>
+		<activity android:name=".oe.TaskView" android:configChanges="keyboardHidden|orientation" android:label="@string/make_observation"/>
+		
+		<receiver android:name=".oe.list.MyOEListActivity$MessageReceiver" />
+	</application>
+
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest> 

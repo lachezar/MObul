@@ -1,0 +1,2 @@
+$ adb -s emulator-5554 shell
+# sqlite3 /data/data/org.mobul/databases/mob.db
